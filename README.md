@@ -1,6 +1,6 @@
 # django-fusionbox
 
-Useful tools for Django development.
+Reusable Newsletter signup application for Django
 
 
 ## Contributing

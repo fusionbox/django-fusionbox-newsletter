@@ -1,3 +1,5 @@
+-e git://github.com/fusionbox/django-fusionbox.git#egg=django_fusionbox
+-e git://github.com/fusionbox/django-fusionbox-newsletter.git#egg=django_fusionbox_newsletter
 Django==1.4.1
 South
 Werkzeug

@@ -1,7 +1,9 @@
+{% load url from future %}
+
 <script type="text/javascript">
     $(document).ready(function() {
         var newsletter_container = $('#newsletter_container')
-        $.get('{% url newsletter:signup_form %}', function(data) {
+        $.get('{% url "newsletter:signup_form" %}', function(data) {
             newsletter_container.html(data);
         });
         $('#newsletter_signup_form').live('submit', function() {
